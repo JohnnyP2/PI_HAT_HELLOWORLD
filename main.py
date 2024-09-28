@@ -1,5 +1,6 @@
 import pi_art
-from sense_hat import SenseHat
+from sense_hat import SenseHat, ACTION_PRESSED, ACTION_HELD, ACTION_RELEASED
+# ACTION_PRESSED, ACTION_HELD, ACTION_RELEASED allow button functions to work
 sense = SenseHat()
 
 
