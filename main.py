@@ -15,6 +15,6 @@ def pushed_down(event):
     sense.clear(0, 0, 0)
     print("Ending Program")
     exit()
-
-sense.stick.direction_down = pushed_down
+while True:
+    sense.stick.direction_down = pushed_down
 
