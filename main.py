@@ -7,5 +7,5 @@ sense = SenseHat()
 while True:
     sense.show_message("Hello world", text_colour=(0,255,0), back_colour=(0,0,255))
 '''
-picture = pi_art.art_files()
+picture = pi_art.artfiles()
 sense.set_pixels(picture)
