@@ -12,9 +12,8 @@ picture = pi_art.artfiles() # get the pixels from the array in pi_art.py
 sense.set_pixels(picture) # sets the sense hat to the pixels
 
 def pushed_down(event):
-    if event.action != ACTION_RELEASED:
-        sense.clear()
-        exit()
+    sense.clear()
+    exit()
 
 sense.stick.direction_down = pushed_down
 
