@@ -18,4 +18,4 @@ def art_files():
         w, w, b, b, b, b, w, w,
         w, w, w, w, w, w, w, w
     }
-    return
+    return jack_frost
