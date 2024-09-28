@@ -1,7 +1,7 @@
 from sense_hat import SenseHat
 sense = SenseHat()
 
-def artfiles(art):
+def artfiles():
     b = (0, 0, 0) # black
     r = (255, 0, 0) # red
     g = (0, 255, 0) # green
