@@ -8,7 +8,7 @@ def artfiles():
     bl = (0, 0, 255) # blue
     w = (255,255,255) # white
 
-    jack_frost = {
+    jack_frost = [
         bl, w, w, w, w, w, w, bl,
         bl, w, b, w, w, b, w, bl,
         bl, w, b, w, w, b, w, bl,
@@ -17,5 +17,5 @@ def artfiles():
         w, b, b, b, b, b, b, w,
         w, w, b, b, b, b, w, w,
         w, w, w, w, w, w, w, w
-    }
+    ]
     return jack_frost
