@@ -21,8 +21,13 @@ def enviSensor():
     print("Humidity: %s %%" % humidity)
     print("Pressure: %s hPa" % pressure)
 
-    
-    
+def compass():
+    sense.clear(0,0,0)
+    while True:
+        north = sense.get_compass()
+        # get current device orientation, the yaw of the device
+        # compare north to the yaw of the device
+        # change the rotation of the device to make the image point north.
 
 
 
